@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Karla;
+    font-weight: 600;
+    src: url(../assets/fonts/Karla-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Karla;
+    font-weight: 700;
+    src: url(../assets/fonts/Karla-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Karla;
+    font-weight: 800;
+    src: url(../assets/fonts/static/Karla-Regular.ttf);
+}
+@font-face {
+    font-family: Karla;
+    font-weight: 900;
+    src: url(../assets/fonts/static/Karla-Bold.ttf);
+}
+h1{
+    font-family: Karla;
+    font-weight: 600;
+}
+label{
+    font-family: Karla;
+    font-weight: 800;
+    font-size: 16px;
+}
+.form-control:hover {
+    border-width: 2px;
+    border-color: hsl(169, 82%, 27%);
+}
+.form-control:focus {
+    border-width: 2px !important;
+    border-color: hsl(169, 82%, 27%) !important;
+    outline: 0 !important;
+    box-shadow: none!important;
+}
+input[type="checkbox"],input[type="radio"]{
+    accent-color : hsl(169, 82%, 27%);
+}
+@media (min-width:768px){
+    form{
+        width: 60%;
+    }
+}
+
